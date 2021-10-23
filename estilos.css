@@ -10,7 +10,11 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(to top, rgba(46, 45, 45, 0.836) ,rgb(0, 0, 0))
+    background: linear-gradient(to top, rgba(46, 45, 45, 0.836) ,rgb(0, 0, 0));
+}
+
+p{
+    color: #fff;
 }
 
 .contenedor{
@@ -195,6 +199,52 @@ header{
     cursor: pointer;
 }
 
+/* Contacto */
+
+form{
+    background: rgba(0, 0, 0, .6);
+    padding: 10px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    width: 450px;
+}
+
+.H2{
+    color: #9f8ad0;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background: #a52ba5;
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
 /* footer */
 
 footer{
@@ -316,6 +366,10 @@ footer{
         width: 80%;
         margin-bottom: 40px;
     }
+
+    form{
+        width: 45%;
+    }
 }
 
 /* Reponsive a 500px */
@@ -348,6 +402,10 @@ footer{
 
     .contact-us{
         width: 90%;
+    }¨
+
+    form{
+        width: 95%;
     }
 }
 
